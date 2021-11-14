@@ -1,6 +1,7 @@
-function saturdayFun(activity){
-    return ('This Saturday, I want to', + activity)
+function saturdayFun() {
+    return 'This Saturday, I want to roller-skate!'
 }
+saturdayFun();
 
 
 
