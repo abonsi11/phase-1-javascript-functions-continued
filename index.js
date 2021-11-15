@@ -8,3 +8,6 @@ function mondayWork(task = 'go to the office') {
 }
 mondayWork('work from home')
 
+function wrapAdjective()
+    
+
