@@ -8,6 +8,11 @@ function mondayWork(task = 'go to the office') {
 }
 mondayWork('work from home')
 
-function wrapAdjective()
-    
 
+function wrapAdjective(style = "*") {
+  return function (adjective = "special") {
+    return `You are ${style}${adjective}${style}!`;
+  };
+}
+
+wrapAdjective ("a hard worker")
